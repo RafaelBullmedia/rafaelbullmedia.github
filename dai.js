@@ -49,7 +49,7 @@ function requestAds() {
     'https://pubads.g.doubleclick.net/gampad/ads?iu=/6881/televisa.bullmedia/spotvideo&description_url=https%3A%2F%2Fwww.bullmedia.mx%2F&tfcd=0&npa=0&sz=640x360%7C640x480%7C854x480%7C1200x675%7C1280x720%7C1280x800%7C1920x1080&pp=TabletBitRates&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=' + new Date().getTime();
 */
 adsRequest.adTagUrl =
-  'https://pubads.g.doubleclick.net/gampad/ads?iu=/6881/televisa.bullmedia/spotvideo&description_url=https%3A%2F%2Fwww.bullmedia.mx%2F&tfcd=0&npa=0&sz=640x360%7C640x480%7C854x480%7C1200x675%7C1280x720%7C1280x800%7C1920x1080&pp=TabletBitRates&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=' + new Date().getTime();
+  'https://pubads.g.doubleclick.net/gampad/ads?iu=/6881/televisa.bullmedia/spotvideo&description_url=https%3A%2F%2Fwww.bullmedia.mx%2F&tfcd=0&npa=0&sz=640x360%7C640x480%7C854x480%7C1200x675%7C1280x720%7C1280x800%7C1920x1080&pp=MobileApps&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=&ad_rule=1&ad_type=video&description_url=https://www.bullmedia.mx/&hl=es&output=xml_vast4&plcmt=1&sid=0&vpa=auto&vpmute=0&vpos=preroll';
 
   adsRequest.linearAdSlotWidth = width;
   adsRequest.linearAdSlotHeight = height;
